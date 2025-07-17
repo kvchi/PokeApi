@@ -1,0 +1,60 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  margin-bottom: 10px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #ef5350;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ef5350;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
+
+#pokemonSprite {
+  margin-top: 30px;
+  width: 180px;
+  height: auto;
+  border: 3px solid #ef5350;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  background-color: white;
+  padding: 10px;
+}
